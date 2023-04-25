@@ -11,7 +11,7 @@ class JogoAdivinhacao {
     int numeroSecreto;
     int tentativas;
     
-    // Método, público
+    // "Construtor" da classe, público
     public:
     JogoAdivinhacao() {
         // Definir o método de "JogoAdivinhacao", o que ele deve realizar
@@ -48,3 +48,10 @@ int main () {
     jogo.jogar();
     return 0;
 }
+
+/* O "Construtor" nos ajuda a realizar a criação de uma instância com maior facilidade, com a "Forma de bolo", geramos a "Classe" e então um "Construtor" 
+a partir dela, que gerará uma classe pré-definida...
+   Como por exemplo, 'Class Peixe' -> 'Peixe ()' -> Colocamos sua definição base -> Criamos uma nova classe Peixe2, não definimos sua caracteristícas e executamos 
+ela -> Ela nos dará os valores colocados no construtor "Peixe ()". 
+   Em um jogo, ele poderia ser usado na ressureição do jogador, como no PACMAN, ou para gerar uma personagem "Random", como quando fazemos em jogos tipo Terraria, 
+ARK ou Conan Exiles. */
